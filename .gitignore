@@ -1,0 +1,15 @@
+# Ignore virtual environment
+emotion_recognition_env/
+
+# Ignore unnecessary files
+*.pyc
+__pycache__/
+
+# Ignore dataset files (if FER-2013 is large)
+fer2013.csv
+
+# Ignore model checkpoint files (optional)
+*.h5
+
+# Ignore VSCode settings (if applicable)
+.vscode/
